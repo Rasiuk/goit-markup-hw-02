@@ -10,8 +10,8 @@
   --background-gray: #f5f4fa;
 }
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   background-color: var(--light-text-color);
   color: var(--primary-text-color);
@@ -37,7 +37,7 @@ body {
 }
 .logo {
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -163,6 +163,10 @@ body {
 
 .footer-link:hover,
 .footer-link {
+  color: var(--accent-color);
+}
+.footer-address:hover,
+.footer-address:focus {
   color: var(--accent-color);
 }
 .footer-address {
